@@ -13,7 +13,7 @@ body {
   justify-content: center;
   flex-flow: column;
   font-size: 18px;
-  background-image: url(/flower.jpg);
+  background-image: url(./flower.jpg);
 }
 
 .container {
