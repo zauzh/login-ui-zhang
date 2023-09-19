@@ -1,0 +1,63 @@
+body {
+  --color-primary: #002595;
+  --color-primary-dark: #041815;
+  --color-secondary: #252c6a;
+  --color-error: #cc3333;
+  --color-success: #35eb28;
+  --border-radius: 10px;
+
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  font-size: 18px;
+  background-image: url(./flower.jpg);
+}
+
+.container {
+  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 0.5rem;
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  background: #f1ebee;
+  text-align: center;
+  font: 500 1rem sans-serif;
+  box-shadow: 2px 2px 2px 2px teal;
+}
+
+button {
+  width: 100px;
+
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  background: var(--color-primary);
+  text-align: center;
+}
+
+button:hover {
+  background: var(--color-primary-dark);
+}
+button:active {
+  transform: scale(0.98);
+}
+.signin {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid #dddddd;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2s;
+}
